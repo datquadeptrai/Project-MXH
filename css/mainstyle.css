@@ -272,3 +272,37 @@ textarea[type="text"] {
   border-radius: 15px;
   margin-top: 20px;
 }
+.about-us{
+  display: flex;
+  text-align: center;
+}
+.about-us1{
+  width: 50%;
+  background: green;
+}
+.about-us2{
+  width: 50%;
+  background: yellow;
+}
+.our-team{
+  text-align: center;
+}
+.about-our-team{
+  display: flex;
+  text-align: center;
+}
+.about-our-team1{
+  width: 50%;
+  background: green;
+  padding-bottom: 100px;
+
+}
+.about-our-team2{
+  width: 50%;
+  background: yellow;
+  padding-bottom: 100px;
+}
+.mission{
+  margin-top:10% ;
+  font-size: 30px;
+}
