@@ -33,6 +33,7 @@ ul {
   border: 0px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   position: fixed;
+  z-index: 999;
 }
 body {
   background-color: rgb(240, 242, 245);
@@ -178,7 +179,7 @@ ul :hover {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 17px;
-  margin-top: 81px;
+
   margin-left: 948px;
 }
 
@@ -192,7 +193,6 @@ ul :hover {
 }
 textarea[type="text"] {
   font-size: 25px;
-  position: absolute;
 }
 #avatar-search {
   border-radius: 25px;
@@ -230,22 +230,7 @@ textarea[type="text"] {
   display: block;
   margin-left: 15px;
 }
-.heart-icon-pressed {
-  height: 30px;
-  margin-left: 15px;
-  position: relative;
-}
 
-.heart-icon {
-  display: inline-block;
-  position: absolute;
-  height: 31px;
-  margin-left: 15px;
-  left: 339px;
-}
-.heart-icon:hover {
-  display: none;
-}
 .post1 {
   background: white;
   border-radius: 15px;
@@ -324,12 +309,14 @@ textarea[type="text"] {
 .about-our-team1 {
   width: 50%;
   background: rgb(140, 189, 224);
-  padding-bottom: 200px;
+  padding-bottom: 240px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .about-our-team2 {
   width: 50%;
   background: rgb(221, 152, 123);
-  padding-bottom: 200px;
+  padding-bottom: 235px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .mission {
   margin-top: 10%;
@@ -367,6 +354,7 @@ body::-webkit-scrollbar-thumb {
 .about-webpage img {
   height: 123px;
   margin-top: 4px;
+  float: left;
 }
 .main-content div {
   height: 135px;
@@ -377,7 +365,10 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 10px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 83px;
 }
 #information {
   margin-top: 30px;
@@ -402,5 +393,35 @@ body::-webkit-scrollbar-thumb {
 .about-our-team img {
   height: 200px;
   width: 200px;
-  border-bottom: 1px solid black;
+  margin-top: 5px;
+}
+.about-our-team1 p {
+  font-size: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.about-our-team2 p {
+  font-size: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.teacher {
+  margin-top: 260px;
+  width: 50%;
+  background-color: pink;
+  margin-left: 265px;
+  text-align: center;
+  padding-bottom: 240px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.teacher img {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-top: 5px;
+}
+.teacher p {
+  font-size: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }

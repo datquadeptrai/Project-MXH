@@ -23,7 +23,7 @@ var d = new Date();
 var h = d.getHours();
 var m = d.getMinutes();
 var day = d.getDate();
-var month = d.getMonth();
+var month = d.getMonth() + 1;
 if (m < 10) {
   m = "0" + m;
 }
