@@ -1,0 +1,26 @@
+.background-image{
+position: absolute;top: 0;left: 15%;
+}
+.myface-image{
+    position: absolute;top: 41%;left:45%;
+    border-radius: 90px;
+    height: 22%;
+   
+}
+.name-slogan{
+    text-align: center;
+   margin-top: 300px;
+   position: absolute;
+   left: 785px;
+   background-color: white;
+   
+
+}
+.myname{
+    font-size: 40px
+
+.slogan{
+    font-size: 20px;
+ 
+
+}
